@@ -7,3 +7,35 @@ h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+u{
+    border-bottom: 2px dotted;
+    text-decoration: none;
+}
+
+.rectangle{
+    width:100%;
+    height: fit-content;
+    background: rgb(208, 204, 204);
+}
+
+.code{
+    color: brown;
+}
+
+.tags{
+    height: fit-content;
+    float: left;
+    margin-right: 10px;
+}
+
+.smrectangle{
+    width: fit-content;
+    height: fit-content;
+    background: rgb(208, 204, 204);
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: rgb(19, 171, 171);
+}
+
