@@ -1,0 +1,44 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+.rectangle1{
+    background-color: rgb(30, 126, 155);
+    height: 50px;
+    width: 50%;
+    padding-top: 20px;
+    list-style-image: url(unchecked_16.png);
+    padding-left: 30px;
+}
+
+.rectangle2{
+    background-color: rgb(40, 183, 202);
+    height: 50px;
+    width: 50%;
+    padding-top: 20px;
+    list-style-image: url(unchecked_16.png);
+    padding-left: 30px;
+}
+
+.rectangle3{
+    background-color: rgb(190, 188, 188);
+    height: 50px;
+    width: 50%;
+    padding-top: 20px;
+    list-style-image: url(checked_16.png);
+    padding-left: 30px;
+}
+
+li::after{
+    content: '\00D7';
+    margin-left: 30px;
+    color: brown;
+}
+
