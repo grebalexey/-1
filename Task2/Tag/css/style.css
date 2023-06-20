@@ -1,0 +1,16 @@
+dt{
+    font-weight: bold;
+}
+
+.example{
+    color: rgb(93, 87, 87);
+}
+
+body{
+    background-color: lightgray;
+    line-height: 10px;
+}
+
+.synonyms{
+    color: blue;
+}
