@@ -1,0 +1,15 @@
+.cat1{
+    background-image: url(../images/cat1.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.cat2{
+    background-image: url(../images/cat2.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    border-radius: 5%;
+}
