@@ -1,15 +1,110 @@
+body{
+    width: 96%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 25px 25px 25px 0;
+}
+
+.intro{
+    width: 70%;
+}
+
+.main{
+    width: 70%;
+}
+
+p{
+    font-size: 14px;
+}
+
+.images{
+    position: absolute;
+    right: 0;
+    top: 0;  
+}
+
 .cat1{
-    background-image: url(../images/cat1.jpg);
-    background-size: cover;
-    height: 150px;
-    width: 200px;
+    height: fit-content;
+    width: 230px;
     border-radius: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: right;
+    background-color: darkblue;
+    color: white;
 }
 
 .cat2{
-    background-image: url(../images/cat2.jpg);
-    background-size: cover;
-    height: 150px;
-    width: 200px;
+    height: fit-content;
+    width: 230px;
     border-radius: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: right;
+    background-color: darkblue;
+    color: white;
 }
+
+img{
+    width: 230px;
+}
+
+.item{
+    padding-right: 15px;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    body{
+        display: block;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .images{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cat1{
+        width: 45%;
+    }
+
+    .cat2{
+        width: 45%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {  
+    
+    .images{
+        display: block;
+    }
+
+    .cat1{
+        width: 100%;
+    }
+
+    .cat2{
+        width: 100%;
+    }
+}
+
