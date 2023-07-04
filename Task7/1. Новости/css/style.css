@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1200px;
+    
+}
+
+.column{
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+.post{
+
+}
+
+.image150{
+    background-image: url(../images/350x150.png);
+    
+    width: 350px;
+    height: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+/* img{
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+
+h3{
+    background-color: white;
+    margin: 0;
+}
+
+p{
+    background-color: white;
+    margin: 0;
+}
