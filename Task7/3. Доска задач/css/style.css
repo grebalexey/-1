@@ -1,0 +1,59 @@
+body{
+    background-color: lightgreen;
+    position: absolute;
+    margin: 0;
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+    width: 100vw;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.board{
+    min-width: 300px;
+    max-width: 400px;
+    height: 80vh;
+    background-color: lightgrey;
+    margin: 20px 0 20px 20px;
+    justify-content: center;
+    overflow: auto;
+}
+
+.card{
+    width: 80%;
+    background-color: white;
+    margin: 10px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+
