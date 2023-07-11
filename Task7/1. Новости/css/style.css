@@ -1,8 +1,9 @@
 body{
     background-color: lightblue;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
-    height: 1200px;
+    justify-content: space-around;
+    /* height: 1200px; */
     
 }
 
@@ -10,14 +11,14 @@ body{
     /* width: 350px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex-grow: 1;
+    /* justify-content: space-around; */
+    /* flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 350px;
+    flex-basis: 350px; */
 }
 
 .post{
-
+    margin-top: 20px;
 }
 
 .image150{
@@ -25,9 +26,19 @@ body{
     
     width: 350px;
     height: 150px;
-    flex-grow: 1;
+    /* flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 350px;
+    flex-basis: 350px; */
+}
+
+.image100{
+    background-image: url(../images/350x100.png);
+    
+    width: 350px;
+    height: 100px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px; */
 }
 
 /* img{
@@ -39,9 +50,11 @@ body{
 h3{
     background-color: white;
     margin: 0;
+    width: 350px;
 }
 
 p{
     background-color: white;
     margin: 0;
+    width: 350px;
 }
